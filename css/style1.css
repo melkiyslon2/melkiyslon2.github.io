@@ -1,0 +1,80 @@
+.wrapper {
+    background: grey;
+    width: 1000px;
+    height: 850px;
+    margin: 150px auto;
+}
+.block {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.red {
+    background: red;
+    top: 50px;
+    left: 150px;
+    z-index: 1;
+}
+.green {
+    background: #1aff20;
+    top: -300px;
+    left: 500px;
+    z-index: 2;
+}
+.blue {
+    background: #5948ff;
+    top: -500px;
+    left: 200px;
+    z-index: 3;
+}
+.yellow {
+    background: yellow;
+    top: -800px;
+    left: 525px;
+    z-index: 4;
+}
+.menu {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 1;
+    position: relative;
+    top: 130px;
+    right: -130px;
+}
+.menu-btn {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+.menu span {
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 70px;
+    height: 10px;
+    margin-bottom: 10px;
+    background: black;
+    position: absolute;
+    transition: all .5s;
+    transform: translateX(-35px) rotate(45deg);
+}
+
+
+.menu-btn span:last-child {
+    transform: translateX(-35px) rotate(-45deg);
+}
+
+.menu-btn span:last-child {
+    margin-bottom: 0;
+}
+.menu-btn span:nth-child(2) {
+    display: none;
+}
+.block:hover{
+    z-index: 5;
+}
