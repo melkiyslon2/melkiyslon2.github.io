@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.header {
+    /*padding: 50px;*/
+    border-bottom: 2px solid black;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+}
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+.logo h1 span {
+    font-weight: normal;
+    display: block;
+}
+
+.data p{
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.data span{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    white-space: nowrap;
+}
+
+.menu ul li a:hover{
+    background: grey;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.about-me p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+.about-me h3{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.active-page {
+    background: grey;
+}
+
+
+
+
+
+
+
+
